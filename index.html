@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryptador</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <section class="contenido" id="contenido">
+      <div class="logo-texto" id="logo-texto">
+        <div>
+          <a href="/index.html">
+            <img src="/img/Logo.svg" alt="logo" class="logo" id="logo"
+          /></a>
+          <textarea
+            class="ingrese"
+            id="ingrese"
+            placeholder="Ingrese el texto aqui"
+            cols="70"
+            rows="10"
+            required
+          ></textarea
+          ><i class="fa" id="fa"> Solo letras minúsculas y sin acentos</i>
+        </div>
+
+        <div class="button" id="button">
+          <button class="encriptar" id="encriptar" type="button" value="">
+            Encriptar
+          </button>
+
+          <button class="desencriptar" id="desencriptar" type="button" value="">
+            Desencriptar
+          </button>
+        </div>
+      </div>
+      <section>
+        <div class="texto">
+          <div id="precontenido">
+            <img
+              src="/img/Muñeco.svg"
+              alt="muneco"
+              class="muneco"
+              id="muneco"
+            />
+            <div class="ptext" id="ptext">
+              <label class="mensaje" id="mensaje"
+                >Ningún mensaje fue encontrado</label
+              >
+              <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+          </div>
+
+          <div>
+            <textarea
+              name=""
+              cols="30"
+              rows="10"
+              class="resultado"
+              id="resultado"
+            ></textarea>
+            <button class="copiar" id="copiar" type="button" value="">
+              Copiar
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
