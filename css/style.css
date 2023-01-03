@@ -47,7 +47,7 @@ body {
 
 .fa {
   position: absolute;
-  width: 250px;
+  width: 15.625rem;
   height: 1px;
   left: 240px;
   top: 381px;
@@ -207,4 +207,85 @@ body {
   background: #d8dfe8;
   color: #0a3871;
   visibility: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .contenido {
+    width: 20.5rem;
+    height: 51rem;
+  }
+
+  .logo {
+    position: absolute;
+    width: 75px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .ingrese {
+    position: absolute;
+    width: 259px;
+    height: 152px;
+    left: 16px;
+    top: 152px;
+    cursor: text;
+  }
+
+  .fa {
+    left: 56px;
+    top: 330px;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    /* position: absolute; */
+    width: 22.5px;
+    height: 158px;
+    left: 65px;
+    top: 350px;
+  }
+
+  .encriptar {
+    width: 11.3rem;
+    height: 2.5rem;
+  }
+
+  .desencriptar {
+    width: 11.3rem;
+    height: 2.5rem;
+  }
+
+  .texto {
+    width: 277px;
+    height: 244px;
+    left: 24px;
+    top: 507px;
+  }
+
+  .muneco {
+    visibility: hidden;
+    height: 204px;
+  }
+
+  .ptext {
+    top: 50px;
+    left: 55px;
+  }
+
+  .resultado {
+    width: 221px;
+    height: 131px;
+  }
+
+  .copiar {
+    width: 11.3rem;
+    height: 2.5rem;
+    left: 45px;
+    top: 189px;
+  }
 }
